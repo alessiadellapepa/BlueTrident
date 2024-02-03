@@ -33,5 +33,5 @@ ax.set_zlabel('z')
 
 #Show/Save Plot
 
-#plt.show()
-plt.savefig('Registrazioni/Risultati/Magnetometro/MagnetometroE3.png', dpi = 300)
+plt.show()
+#plt.savefig('Registrazioni/Risultati/Magnetometro/MagnetometroE3.png', dpi = 300)

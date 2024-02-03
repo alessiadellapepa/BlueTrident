@@ -34,5 +34,5 @@ ax.set_zlabel('z')
 
 #Show/Save Plot
 
-#plt.show()
-plt.savefig('Registrazioni/Risultati/Accelerometro/AHighG_BLV8.png', dpi=300)
+plt.show()
+#plt.savefig('Registrazioni/Risultati/Accelerometro/AHighG_BLV8.png', dpi=300)
