@@ -15,10 +15,10 @@ Nella cartella Registrazioni sono contenute le registrazioni relative ai singoli
 Prima di mandare in esecuzione uno dei due file, modifica il contenuto della chiamata open (line 15, in entrambi i file) con il percorso corretto della registrazione che vuoi analizzare. Le registrazioni nella cartella Registrazioni sono divise per sessioni di registrazione (NomeSessione=1874,1902) ed all'interno di esse trovi le registrazioni catalogate per ID# (segui guida all'interno del file fornito: RaccoltaDati.xlsx ). 
 
 Dovrai modificare il parametro all'interno della chiamata open come segue: 
-- open('Registrazioni/NomeSessione/ID/#/HighG.csv') nel caso si stesse utilizzando la classe AnalisiAccelerometro.py
+- open('Registrazioni/NomeSessione/ID/#/HighG.csv') oppure open('Registrazioni/NomeSessione/ID/#/Accelerometro.csv') nel caso si stesse utilizzando la classe AnalisiAccelerometro.py
 - open('Registrazioni/NomeSessione/ID/#/Magnetometro.csv') nel caso si stesse utilizzando la classe AnalisiMagnetometro.py
 
-Esempio pratico: voglio eseguire AnalisiAccelerometro.py relativamente al movimento Extra 0 eseguito nella sessione 1874. 
+Esempio pratico: voglio eseguire AnalisiAccelerometro.py relativamente al movimento Extra 0 eseguito nella sessione 1874 ed analizzando i dati del sensore HighG. 
 Sostituirò la chiamata open con : open('Registrazioni/1874/E/0/HighG.csv')
 
 ### Nota
